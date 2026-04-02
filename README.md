@@ -65,13 +65,13 @@ export ANTHROPIC_DEFAULT_OPUS_MODEL=z-ai/glm4.7
 claude
 ```
 
-use zai/glm4.7 model
+use minimaxai/minimax-m2.5 model
 ```bash
 export ANTHROPIC_BASE_URL=http://localhost:3001
 export ANTHROPIC_AUTH_TOKEN=nvapi-api-key
-export ANTHROPIC_DEFAULT_HAIKU_MODEL=minimaxai/minimax-m2.1
-export ANTHROPIC_DEFAULT_SONNET_MODEL=minimaxai/minimax-m2.1
-export ANTHROPIC_DEFAULT_OPUS_MODEL=minimaxai/minimax-m2.1
+export ANTHROPIC_DEFAULT_HAIKU_MODEL=minimaxai/minimax-m2.5
+export ANTHROPIC_DEFAULT_SONNET_MODEL=minimaxai/minimax-m2.5
+export ANTHROPIC_DEFAULT_OPUS_MODEL=minimaxai/minimax-m2.5
 
 claude
 ```
